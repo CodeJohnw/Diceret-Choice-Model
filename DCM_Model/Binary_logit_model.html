@@ -1,0 +1,120 @@
+<html>
+<head>
+<script src="http://transp-or.epfl.ch/biogeme/sorttable.js"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Binary_logit_model - Report from biogeme 3.2.12 [2023-11-26]</title>
+<meta name="keywords" content="biogeme, discrete choice, random utility">
+<meta name="description" content="Report from biogeme 3.2.12 [2023-11-26]">
+<meta name="author" content="{bv.author}">
+<style type=text/css>
+.biostyle
+	{font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	font-family:Courier;}
+.boundstyle
+	{font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	font-family:Courier;
+        color:red}
+</style>
+</head>
+<body bgcolor="#ffffff">
+<p>biogeme 3.2.12 [2023-11-26]</p>
+<p><a href="https://www.python.org/" target="_blank">Python</a> package</p>
+<p>Home page: <a href="http://biogeme.epfl.ch" target="_blank">http://biogeme.epfl.ch</a></p>
+<p>Submit questions to <a href="https://groups.google.com/d/forum/biogeme" target="_blank">https://groups.google.com/d/forum/biogeme</a></p>
+<p><a href="http://people.epfl.ch/michel.bierlaire">Michel Bierlaire</a>, <a href="http://transp-or.epfl.ch">Transport and Mobility Laboratory</a>, <a href="http://www.epfl.ch">Ecole Polytechnique F&#233;d&#233;rale de Lausanne (EPFL)</a></p>
+<p>This file has automatically been generated on 2023-11-26 21:26:23.193013</p>
+<table>
+<tr class=biostyle><td align=right><strong>Report file</strong>:	</td><td>Binary_logit_model.html</td></tr>
+<tr class=biostyle><td align=right><strong>Database name</strong>:	</td><td>application</td></tr>
+</table>
+<h2>Warning: identification issue</h2>
+<p>The second derivatives matrix is close to singularity. The smallest eigenvalue is 1.73e-11. This warning is triggered when it is smaller than the parameter <code>identification_threshold</code>=1e-05.</p><p>Variables involved:<table><tr><td>-0.0187</td><td> *</td><td> B_AGE</td></tr>
+<tr><td>-0.127</td><td> *</td><td> B_CAROWNERSHIP</td></tr>
+<tr><td>0.102</td><td> *</td><td> B_GENDER</td></tr>
+<tr><td>-0.986</td><td> *</td><td> B_INCOME</td></tr>
+</table></p>
+<h1>Estimation report</h1>
+<table border="0">
+<tr class=biostyle><td align=right ><strong>Number of estimated parameters</strong>: </td> <td>9</td></tr>
+<tr class=biostyle><td align=right ><strong>Sample size</strong>: </td> <td>5942</td></tr>
+<tr class=biostyle><td align=right ><strong>Excluded observations</strong>: </td> <td>0</td></tr>
+<tr class=biostyle><td align=right ><strong>Init log likelihood</strong>: </td> <td>-4118.681</td></tr>
+<tr class=biostyle><td align=right ><strong>Final log likelihood</strong>: </td> <td>-2281.36</td></tr>
+<tr class=biostyle><td align=right ><strong>Likelihood ratio test for the init. model</strong>: </td> <td>3674.641</td></tr>
+<tr class=biostyle><td align=right ><strong>Rho-square for the init. model</strong>: </td> <td>0.446</td></tr>
+<tr class=biostyle><td align=right ><strong>Rho-square-bar for the init. model</strong>: </td> <td>0.444</td></tr>
+<tr class=biostyle><td align=right ><strong>Akaike Information Criterion</strong>: </td> <td>4580.72</td></tr>
+<tr class=biostyle><td align=right ><strong>Bayesian Information Criterion</strong>: </td> <td>4640.928</td></tr>
+<tr class=biostyle><td align=right ><strong>Final gradient norm</strong>: </td> <td>1.7045E-07</td></tr>
+<tr class=biostyle><td align=right ><strong>Nbr of threads</strong>: </td> <td>8</td></tr>
+<tr class=biostyle><td align=right ><strong>Relative gradient</strong>: </td> <td>3.1850710316828135e-11</td></tr>
+<tr class=biostyle><td align=right ><strong>Cause of termination</strong>: </td> <td>Relative gradient = 3.2e-11 <= 6.1e-06</td></tr>
+<tr class=biostyle><td align=right ><strong>Number of function evaluations</strong>: </td> <td>7</td></tr>
+<tr class=biostyle><td align=right ><strong>Number of gradient evaluations</strong>: </td> <td>7</td></tr>
+<tr class=biostyle><td align=right ><strong>Number of hessian evaluations</strong>: </td> <td>6</td></tr>
+<tr class=biostyle><td align=right ><strong>Algorithm</strong>: </td> <td>Newton with trust region for simple bound constraints</td></tr>
+<tr class=biostyle><td align=right ><strong>Number of iterations</strong>: </td> <td>6</td></tr>
+<tr class=biostyle><td align=right ><strong>Proportion of Hessian calculation</strong>: </td> <td>6/6 = 100.0%</td></tr>
+<tr class=biostyle><td align=right ><strong>Optimization time</strong>: </td> <td>0:00:00.460266</td></tr>
+</table>
+<h1>Estimated parameters</h1>
+<table border="1">
+<tr class=biostyle><th>Name</th><th>Value</th><th>Rob. Std err</th><th>Rob. t-test</th><th>Rob. p-value</th></tr>
+<tr class=biostyle><td>ASC_WALK</td><td>-2.55</td><td>0.191</td><td>-13.4</td><td>0</td></tr>
+<tr class=biostyle><td>B_AGE</td><td>9.82e-15</td><td>1.8e+308</td><td>5.43e-323</td><td>1</td></tr>
+<tr class=biostyle><td>B_CAROWNERSHIP</td><td>-3.72e-17</td><td>1.8e+308</td><td>-0</td><td>1</td></tr>
+<tr class=biostyle><td>B_GENDER</td><td>-1.16e-17</td><td>5.2e-15</td><td>-0.00224</td><td>0.998</td></tr>
+<tr class=biostyle><td>B_INCOME</td><td>9.59e-15</td><td>5.19e-16</td><td>18.5</td><td>0</td></tr>
+<tr class=biostyle><td>B_TC_CAR</td><td>-0.199</td><td>0.0114</td><td>-17.4</td><td>0</td></tr>
+<tr class=biostyle><td>B_TT_CAR</td><td>-0.0998</td><td>0.00331</td><td>-30.2</td><td>0</td></tr>
+<tr class=biostyle><td>B_TT_WALK</td><td>-0.0648</td><td>0.00277</td><td>-23.4</td><td>0</td></tr>
+<tr class=biostyle><td>B_WALKBILITY</td><td>0.00759</td><td>0.00128</td><td>5.92</td><td>3.2e-09</td></tr>
+</table>
+<h2>Correlation of coefficients</h2>
+<table border="1">
+<tr class=biostyle><th>Coefficient1</th><th>Coefficient2</th><th>Covariance</th><th>Correlation</th><th>t-test</th><th>p-value</th><th>Rob. cov.</th><th>Rob. corr.</th><th>Rob. t-test</th><th>Rob. p-value</th></tr>
+<tr class=biostyle><td>B_AGE</td><td>ASC_WALK</td><td>-4.03e-14</td><td>1.8e+308</td><td>13.2</td><td>0</td><td>-3.94e-14</td><td>1.8e+308</td><td>13.4</td><td>0</td></tr>
+<tr class=biostyle><td>B_CAROWNERSHIP</td><td>ASC_WALK</td><td>2.38e-15</td><td>1.8e+308</td><td>13.2</td><td>0</td><td>2.33e-15</td><td>1.8e+308</td><td>13.4</td><td>0</td></tr>
+<tr class=biostyle><td>B_CAROWNERSHIP</td><td>B_AGE</td><td>2.39e-29</td><td>1.8e+308</td><td>1.8e+308</td><td>0</td><td>2.34e-29</td><td>1.8e+308</td><td>1.8e+308</td><td>0</td></tr>
+<tr class=biostyle><td>B_GENDER</td><td>ASC_WALK</td><td>4.24e-15</td><td>1.8e+308</td><td>13.2</td><td>0</td><td>4.15e-15</td><td>1.8e+308</td><td>13.4</td><td>0</td></tr>
+<tr class=biostyle><td>B_GENDER</td><td>B_AGE</td><td>4.25e-29</td><td>1.8e+308</td><td>1.8e+308</td><td>0</td><td>4.16e-29</td><td>1.8e+308</td><td>1.8e+308</td><td>0</td></tr>
+<tr class=biostyle><td>B_GENDER</td><td>B_CAROWNERSHIP</td><td>-3.7e-29</td><td>1.8e+308</td><td>0.00284</td><td>0.998</td><td>-3.62e-29</td><td>1.8e+308</td><td>0.00288</td><td>0.998</td></tr>
+<tr class=biostyle><td>B_INCOME</td><td>ASC_WALK</td><td>-5.62e-17</td><td>1.8e+308</td><td>13.2</td><td>0</td><td>-5.5e-17</td><td>1.8e+308</td><td>13.4</td><td>0</td></tr>
+<tr class=biostyle><td>B_INCOME</td><td>B_AGE</td><td>-5.64e-31</td><td>1.8e+308</td><td>1.8e+308</td><td>0</td><td>-5.52e-31</td><td>1.8e+308</td><td>1.8e+308</td><td>0</td></tr>
+<tr class=biostyle><td>B_INCOME</td><td>B_CAROWNERSHIP</td><td>4.9e-31</td><td>1.8e+308</td><td>1.8e+308</td><td>0</td><td>4.8e-31</td><td>1.8e+308</td><td>1.8e+308</td><td>0</td></tr>
+<tr class=biostyle><td>B_INCOME</td><td>B_GENDER</td><td>-3.67e-31</td><td>1.8e+308</td><td>1.79</td><td>0.073</td><td>-3.59e-31</td><td>1.8e+308</td><td>1.81</td><td>0.0699</td></tr>
+<tr class=biostyle><td>B_TC_CAR</td><td>ASC_WALK</td><td>0.00158</td><td>1.8e+308</td><td>12.7</td><td>0</td><td>0.00156</td><td>1.8e+308</td><td>12.8</td><td>0</td></tr>
+<tr class=biostyle><td>B_TC_CAR</td><td>B_AGE</td><td>1.59e-17</td><td>1.8e+308</td><td>-17.7</td><td>0</td><td>1.57e-17</td><td>1.8e+308</td><td>-17.4</td><td>0</td></tr>
+<tr class=biostyle><td>B_TC_CAR</td><td>B_CAROWNERSHIP</td><td>-1.39e-17</td><td>1.8e+308</td><td>-17.7</td><td>0</td><td>-1.37e-17</td><td>1.8e+308</td><td>-17.4</td><td>0</td></tr>
+<tr class=biostyle><td>B_TC_CAR</td><td>B_GENDER</td><td>1.04e-17</td><td>1.8e+308</td><td>-17.7</td><td>0</td><td>1.02e-17</td><td>1.8e+308</td><td>-17.4</td><td>0</td></tr>
+<tr class=biostyle><td>B_TC_CAR</td><td>B_INCOME</td><td>-7.77e-18</td><td>1.8e+308</td><td>-17.7</td><td>0</td><td>-7.67e-18</td><td>1.8e+308</td><td>-17.4</td><td>0</td></tr>
+<tr class=biostyle><td>B_TT_CAR</td><td>ASC_WALK</td><td>0.000309</td><td>1.8e+308</td><td>12.8</td><td>0</td><td>0.00029</td><td>1.8e+308</td><td>12.9</td><td>0</td></tr>
+<tr class=biostyle><td>B_TT_CAR</td><td>B_AGE</td><td>3.1e-18</td><td>1.8e+308</td><td>-30.7</td><td>0</td><td>2.91e-18</td><td>1.8e+308</td><td>-30.2</td><td>0</td></tr>
+<tr class=biostyle><td>B_TT_CAR</td><td>B_CAROWNERSHIP</td><td>-2.7e-18</td><td>1.8e+308</td><td>-30.7</td><td>0</td><td>-2.53e-18</td><td>1.8e+308</td><td>-30.2</td><td>0</td></tr>
+<tr class=biostyle><td>B_TT_CAR</td><td>B_GENDER</td><td>2.02e-18</td><td>1.8e+308</td><td>-30.7</td><td>0</td><td>1.89e-18</td><td>1.8e+308</td><td>-30.2</td><td>0</td></tr>
+<tr class=biostyle><td>B_TT_CAR</td><td>B_INCOME</td><td>-1.52e-18</td><td>1.8e+308</td><td>-30.7</td><td>0</td><td>-1.42e-18</td><td>1.8e+308</td><td>-30.2</td><td>0</td></tr>
+<tr class=biostyle><td>B_TT_CAR</td><td>B_TC_CAR</td><td>7.96e-06</td><td>1.8e+308</td><td>8.99</td><td>0</td><td>6.86e-06</td><td>1.8e+308</td><td>8.75</td><td>0</td></tr>
+<tr class=biostyle><td>B_TT_WALK</td><td>ASC_WALK</td><td>-0.000134</td><td>1.8e+308</td><td>12.8</td><td>0</td><td>-0.000126</td><td>1.8e+308</td><td>13</td><td>0</td></tr>
+<tr class=biostyle><td>B_TT_WALK</td><td>B_AGE</td><td>-1.35e-18</td><td>1.8e+308</td><td>-23.7</td><td>0</td><td>-1.26e-18</td><td>1.8e+308</td><td>-23.4</td><td>0</td></tr>
+<tr class=biostyle><td>B_TT_WALK</td><td>B_CAROWNERSHIP</td><td>1.16e-18</td><td>1.8e+308</td><td>-23.7</td><td>0</td><td>1.09e-18</td><td>1.8e+308</td><td>-23.4</td><td>0</td></tr>
+<tr class=biostyle><td>B_TT_WALK</td><td>B_GENDER</td><td>-8.7e-19</td><td>1.8e+308</td><td>-23.7</td><td>0</td><td>-8.13e-19</td><td>1.8e+308</td><td>-23.4</td><td>0</td></tr>
+<tr class=biostyle><td>B_TT_WALK</td><td>B_INCOME</td><td>6.54e-19</td><td>1.8e+308</td><td>-23.7</td><td>0</td><td>6.11e-19</td><td>1.8e+308</td><td>-23.4</td><td>0</td></tr>
+<tr class=biostyle><td>B_TT_WALK</td><td>B_TC_CAR</td><td>4.46e-06</td><td>1.8e+308</td><td>12</td><td>0</td><td>5.54e-06</td><td>1.8e+308</td><td>11.9</td><td>0</td></tr>
+<tr class=biostyle><td>B_TT_WALK</td><td>B_TT_CAR</td><td>2.2e-06</td><td>1.8e+308</td><td>9.47</td><td>0</td><td>2.65e-06</td><td>1.8e+308</td><td>9.6</td><td>0</td></tr>
+<tr class=biostyle><td>B_WALKBILITY</td><td>ASC_WALK</td><td>-9.17e-05</td><td>1.8e+308</td><td>13.2</td><td>0</td><td>-9.19e-05</td><td>1.8e+308</td><td>13.4</td><td>0</td></tr>
+<tr class=biostyle><td>B_WALKBILITY</td><td>B_AGE</td><td>-9.19e-19</td><td>1.8e+308</td><td>5.85</td><td>4.9e-09</td><td>-9.22e-19</td><td>1.8e+308</td><td>5.92</td><td>3.2e-09</td></tr>
+<tr class=biostyle><td>B_WALKBILITY</td><td>B_CAROWNERSHIP</td><td>7.97e-19</td><td>1.8e+308</td><td>5.85</td><td>4.9e-09</td><td>7.99e-19</td><td>1.8e+308</td><td>5.92</td><td>3.2e-09</td></tr>
+<tr class=biostyle><td>B_WALKBILITY</td><td>B_GENDER</td><td>-5.96e-19</td><td>1.8e+308</td><td>5.85</td><td>4.9e-09</td><td>-5.97e-19</td><td>1.8e+308</td><td>5.92</td><td>3.2e-09</td></tr>
+<tr class=biostyle><td>B_WALKBILITY</td><td>B_INCOME</td><td>4.48e-19</td><td>1.8e+308</td><td>5.85</td><td>4.9e-09</td><td>4.49e-19</td><td>1.8e+308</td><td>5.92</td><td>3.2e-09</td></tr>
+<tr class=biostyle><td>B_WALKBILITY</td><td>B_TC_CAR</td><td>-7.85e-07</td><td>1.8e+308</td><td>18.1</td><td>0</td><td>-4.41e-07</td><td>1.8e+308</td><td>17.9</td><td>0</td></tr>
+<tr class=biostyle><td>B_WALKBILITY</td><td>B_TT_CAR</td><td>-2.49e-07</td><td>1.8e+308</td><td>30</td><td>0</td><td>-2.39e-07</td><td>1.8e+308</td><td>29.7</td><td>0</td></tr>
+<tr class=biostyle><td>B_WALKBILITY</td><td>B_TT_WALK</td><td>-2.74e-07</td><td>1.8e+308</td><td>23.2</td><td>0</td><td>-1.07e-07</td><td>1.8e+308</td><td>23.4</td><td>0</td></tr>
+</table>
+<p>Smallest eigenvalue: -1.72902e-11</p>
+<p>Largest eigenvalue: 3.78139e+06</p>
+<p>Condition number: -2.18702e+17</p>
+</html>
