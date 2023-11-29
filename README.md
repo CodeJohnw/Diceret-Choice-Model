@@ -1,2 +1,3 @@
 # Diceret-Choice-Model
-	1 ![image](https://github.com/CodeJohnw/Diceret-Choice-Model/assets/82873574/70fac275-5dcc-4b63-bbff-fcd842d69737)
+<img width="933" alt="image" src="https://github.com/CodeJohnw/Diceret-Choice-Model/assets/82873574/f0fd3423-7632-47ce-9e4a-3b630070dcb7">
+
